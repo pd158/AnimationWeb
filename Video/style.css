@@ -8,7 +8,7 @@ body{
 }
 
 .navbar {
-  backgrounf:rgba(0,0,0,0.6);
+  background:rgba(0,0,0,0.6);
 }
 
 .navbar-brand img{
@@ -76,6 +76,24 @@ body{
   color: white;
 }
 
+@media (max-width: 768px) {
+  .caption h1{
+    font-size: 1.4rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+
+  .caption h3{
+    font-size: 1.1rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg{
+    font-size: 1rem;
+    padding: .5rem 1rem;
+  }
+
+ }
 
 
 
