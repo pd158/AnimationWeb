@@ -28,8 +28,8 @@
 <div class="caption text-center">
 		<h1>Planetory</h1>
 		<h3>Explore the universe</h3>
-		<a class= "btn btn-outline-light btn-lg" href="C:\Users\pdeva\github\videobackground\Video\signup.php">Sign up</a>
-		<a class= "btn btn-outline-light btn-lg" href="#">Sign in</a>
+		<a class= "btn btn-outline-light btn-lg" href="/videobackground/video/signup.php">Sign up</a>
+		<a class= "btn btn-outline-light btn-lg" href="/videobackground/video/signin.php">Sign in</a>
 </div>
 
 
