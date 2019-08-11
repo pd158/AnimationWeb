@@ -36,7 +36,7 @@
 
   <!--- Registeration form -->
 
-  <form action="action_page.php" style="border:1px solid #ccc">
+  <form action="database.php" method="get" style="border:1px solid #ccc">
     <div class="container">
       <div class="col-lg-12">
 
@@ -48,8 +48,18 @@
       <hr>
 
       <div class="">
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
+        <label for="firstname"><b>Firstname</b></label>
+        <input type="text" placeholder="Enter Firstname" name="firstname" required>
+      </div>
+
+      <div class="">
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+      </div>
+
+      <div class="">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
       </div>
 
       <div class="">
@@ -58,16 +68,6 @@
       </div>
 
 
-
-
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
       <label>
         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
@@ -84,7 +84,7 @@
   </form>
 
 
-
+<?php echo $_GET["firstname"] ?>
 
 
 </body>
