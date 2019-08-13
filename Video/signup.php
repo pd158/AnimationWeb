@@ -36,11 +36,9 @@
 
   <!--- Registeration form -->
 
-  <form action="database.php" method="get" style="border:1px solid #ccc">
+  <form action="database.php" method="post" style="border:1px solid #ccc">
     <div class="container">
       <div class="col-lg-12">
-
-
 
       </div>
       <h1>Sign Up</h1>
@@ -49,12 +47,12 @@
 
       <div class="">
         <label for="firstname"><b>Firstname</b></label>
-        <input type="text" placeholder="Enter Firstname" name="firstname" required>
+        <input type="text" placeholder="Enter Firstname" name="first" required>
       </div>
 
       <div class="">
         <label for="username"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="username" required>
+        <input type="text" placeholder="Enter Username" name="use" required>
       </div>
 
       <div class="">
@@ -64,7 +62,7 @@
 
       <div class="">
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
+        <input type="text" placeholder="Enter Email" name="eml" required>
       </div>
 
 
