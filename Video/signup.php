@@ -52,7 +52,7 @@
 
       <div class="">
         <label for="username"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="use" required>
+        <input type="text" placeholder="Enter Username" name="user" required>
       </div>
 
       <div class="">
